@@ -1,0 +1,12 @@
+.todolist-container {
+}
+.todo-container {
+  display: block;
+  height: 50px;
+  width: 300px;
+  border: 1px solid gray;
+  margin: 10px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 15px;
+}

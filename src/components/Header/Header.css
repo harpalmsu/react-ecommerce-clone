@@ -1,0 +1,42 @@
+/* .mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0px 10px;
+  border: 1px solid gray;
+} */
+.heroWrapper {
+  height: 100%;
+  width: 100%;
+}
+.hero {
+  background-image: url("https://www.theparisreview.org/blog/wp-content/uploads/2018/05/1025px-the_metropolitan_museum_of_art.jpg");
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background-size: 100% auto;
+
+  opacity: 0.6;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0px 10px;
+  border: 1px solid gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #c3a384;
+  color: white;
+  border: 1px solid white;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
